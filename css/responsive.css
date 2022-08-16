@@ -1,0 +1,801 @@
+@media (max-width: 575px){ 
+    /* nav part start */
+    .nav {
+        padding: 0px 0 !important;
+    }
+    .nav-link {
+        padding: .5rem 1rem !important;
+    }
+    /* nav part end */
+    /* profile part start */
+    .profile_img img {
+        width: 55%;
+        padding: 20px 0 20px 20px;
+    }
+    .profile_img{
+        text-align: center;
+    }
+    .copyri {
+        bottom: -110px;
+    }
+    /* profile part end */
+    /* banner part start */
+    #banner {
+        padding: 30px 0;
+    }
+    #banner .banner_txt h1::after {
+        position: absolute;
+        content: '';
+        top: 59px;
+        left: -1px;
+        height: 5px;
+        width: 40%;
+        background-color: black;
+    }
+    #banner .banner_txt .typing_text {
+        padding-top: 0px;
+    }
+    /* banner part end */
+    /* about part start */
+    ol, ul {
+        padding-left: 0rem;
+    }
+    #about .abt_txt_right {
+        padding-top: 5px;
+    }
+    /* about part end */
+    /* education part start */
+    .school_2 .place_2 {
+        
+        margin-right: -2px;
+    }
+    .school_2::after {
+        bottom: -45px;
+    }
+
+    .school_2 .time_2 {
+        top: 89px;
+    }
+    /* education part end */
+    /* portfolio part start */
+    .port_overlay a {
+        padding: 27px 150px;
+    }
+    .port_img .port_overlay {
+        opacity: 1;
+    }
+    #portfolio .port_head h3::after {
+        width: 338px;
+    }
+    .carousel-indicators {
+        left: 18px;
+    }
+    .mixit{
+        padding-left: 20px;
+    }
+    /* portfolio part end */
+
+
+    /* service part start */
+    .ser_item_main{
+        text-align: center;
+        padding: 10px 0;
+    }
+    #service .service_head h3::after {
+        width: 284px;
+    }
+    #service .ser_text h2 {
+        font-size: 40px;
+    }
+    .testi_head h3::after {
+        width: 242px;
+    }
+    /* testi part start */
+    #carouselExampleCaptions{
+        padding-left: 20px;
+    }
+    /* testi part end */
+    /* service part start */
+    /* contact part start */
+    .location {
+        text-align: center;
+        border: 0px solid #797979;
+        margin: -47px 0 -8px 21px;
+        /* padding: 10px 0px 10px 13px; */
+    }
+    .email_part{
+        padding-left: 20px;
+    }
+    /* contact part end */
+    
+ }
+
+
+
+
+
+
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /* nav part start */
+    .nav {
+        padding: 0px 0 !important;
+    }
+    .nav-link {
+        padding: .5rem 1rem !important;
+    }
+    /* nav part end */
+    /* profile part start */
+    .profile_img img {
+        width: 55%;
+        padding: 20px 0 20px 20px;
+    }
+    .profile_img{
+        text-align: center;
+    }
+    .copyri {
+        bottom: -110px;
+    }
+    /* profile part end */
+    /* banner part start */
+    #banner {
+        padding: 30px 0;
+    }
+    #banner .banner_txt h1::after {
+        position: absolute;
+        content: '';
+        top: 59px;
+        left: -1px;
+        height: 5px;
+        width: 40%;
+        background-color: black;
+    }
+    #banner .banner_txt .typing_text {
+        padding-top: 0px;
+    }
+    /* banner part end */
+    /* about part start */
+    ol, ul {
+        padding-left: 0rem;
+    }
+    #about .abt_txt_right {
+        padding-top: 5px;
+    }
+    #about .abt_txt_right ul .first {
+        letter-spacing: 2px;
+    }
+    #about .abt_txt_right ul .second {
+        letter-spacing: 3px;
+    }
+    /* about part end */
+    /* education part start */
+    .school_2 .place_2 {
+        
+        margin-right: -2px;
+    }
+    .school_2::after {
+        bottom: -45px;
+    }
+
+    .school_2 .time_2 {
+        top: 89px;
+    }
+    /* education part end */
+    /* portfolio part start */
+    .port_overlay a {
+        padding: 20px 40px;
+    }
+    .carousel-indicators {
+        left: 18px;
+    }
+    .port_img .port_overlay {
+        opacity: 1;
+    }
+    #portfolio .port_head h3::after {
+        width: 338px;
+    }
+    /* portfolio part end */
+
+
+    /* service part start */
+    .ser_item_main{
+        text-align: center;
+        padding: 10px 0;
+    }
+    #service .service_head h3::after {
+        width: 284px;
+    }
+    #service .ser_text h2 {
+        font-size: 40px;
+    }
+    .testi_head h3::after {
+        width: 242px;
+    }
+    /* testi part start */
+    #carouselExampleCaptions{
+        padding-left: 20px;
+    }
+    /* testi part end */
+    /* service part start */
+    /* contact part start */
+    .location {
+        text-align: center;
+        border: 0px solid #797979;
+        margin: -47px 0 -8px 21px;
+        /* padding: 10px 0px 10px 13px; */
+    }
+    .email_part{
+        padding-left: 20px;
+    }
+    #contact .contact_head h3 {
+        padding-left: 20px;
+    }
+    #contact .contact_head h3::after {
+        position: absolute;
+        content: '';
+        bottom: 13px;
+        left: 183px;
+        height: 2px;
+        width: 270px;
+        background-color: #797979;
+    }
+    /* contact part end */
+}
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* nav part start */
+    .nav {
+        padding: 0px 0 !important;
+        justify-content: center !important;
+    }
+    .nav-link {
+        padding: .5rem 1rem !important;
+    }
+    /* nav part end */
+    /* profile part start */
+    .profile_img img {
+        width: 55%;
+        padding: 20px 0 20px 20px;
+    }
+    .profile_img{
+        text-align: center;
+    }
+    .copyri {
+        bottom: -60px;
+    }
+    /* profile part end */
+    /* banner part start */
+    #banner {
+        padding: 30px 0;
+    }
+    #banner .banner_txt h1::after {
+        position: absolute;
+        content: '';
+        top: 59px;
+        left: -1px;
+        height: 5px;
+        width: 40%;
+        background-color: black;
+    }
+    #banner .banner_txt h2 {
+        padding-top: 10px;
+    }
+    #banner .banner_txt .typing_text {
+        padding-top: 0px;
+    }
+    #banner .so_icon {
+        padding-top: 8px;
+    }
+    /* banner part end */
+    /* about part start */
+    ol, ul {
+        padding-left: 0rem;
+    }
+    #about .abt_txt_right {
+        padding-top: 5px;
+    }
+    #about .abt_txt_right ul .second {
+        letter-spacing: 3px;
+    }
+    #about .abt_txt_right ul .first {
+        letter-spacing: 2px;
+    }
+    /* about part end */
+    /* education part start */
+    .school .time {
+        left: 75px;
+    }
+    .school_2 .place_2 {
+        margin-right: 79px;
+    }
+    .school_2::after {
+        bottom: -45px;
+    }
+    .school_2 .time_2 {
+        left: 189px;
+    }
+    .school_2 .time_2 {
+        top: 89px;
+        left: 73px;
+    }
+    .school .place {
+        padding-right: 74px;
+    }
+    .school_2::after {
+        position: absolute;
+        content: '';
+        bottom: -48px;
+        left: 77px;
+        height: 3px;
+        width: 77%;
+        background-color: #dbdbdb;
+        /* text-align: revert; */
+    }
+    /* education part end */
+    /* portfolio part start */
+    .port_overlay a {
+        padding: 20px 88px;
+    }
+    .carousel-indicators {
+        left: 18px;
+    }
+    .port_img .port_overlay {
+        opacity: 1;
+    }
+    #portfolio .port_head h3::after {
+        width: 246px;
+    }
+    /* portfolio part end */
+
+
+    /* service part start */
+    .ser_item_main{
+        text-align: center;
+        padding: 10px 0;
+    }
+    #service .service_head h3::after {
+        width: 363px;
+    }
+    #service .ser_text h2 {
+        font-size: 40px;
+    }
+    .testi_head h3::after {
+        width: 242px;
+    }
+    /* testi part start */
+    #carouselExampleCaptions{
+        padding-left: 20px;
+    }
+    /* testi part end */
+    /* service part start */
+    /* contact part start */
+    .location {
+        text-align: center;
+        border: 0px solid #797979;
+        margin: -47px 0 -8px 21px;
+        /* padding: 10px 0px 10px 13px; */
+    }
+    .email_part{
+        padding-left: 20px;
+    }
+    #contact .contact_head h3::after {
+        width: 422px;
+        left: 183px;
+    }
+    #contact .contact_head h3 {
+        
+        padding-left: 21px;
+    }
+    /* contact part end */
+}
+
+
+
+
+
+
+
+
+
+@media (min-width: 992px) and (max-width: 1199.98px){
+    /* nav part start */
+ .rnav{
+            flex: 0 0 auto !important;
+            width: 100.333% !important;
+            padding-left: 20px !important;
+        
+    }
+    .nav {
+        padding: 10px 0 !important;
+        justify-content: center !important;
+    }
+    .nav-link {
+        padding: .5rem 2.5rem !important;
+    }
+    #banner .banner_txt h1 {
+        font-size: 30px;
+        line-height: 56px;
+    }
+    #banner .banner_txt h2 {
+        font-size: 29px;
+    }
+    #banner .so_icon {
+        padding-top: 6px;
+    }
+    #banner .so_icon i {
+        font-size: 20px;
+        padding-top: 6px;
+    }
+    .banner_main{
+            text-align: center;
+            padding-left: 279px;
+    }
+    .rim{
+            flex: 0 0 auto;
+            width: 100.667%;
+    }
+    /* nav part end */
+    /* profile part start */
+    .profile_img img {
+        width: 32%;
+        padding: 20px 0 20px 20px;
+    }
+    .profile_img{
+        text-align: center;
+    }
+    .copyri {
+        bottom: -60px;
+    }
+    /* profile part end */
+    /* banner part start */
+    #banner {
+        padding: 50px 0;
+    }
+    #banner .banner_txt h1::after {
+        position: absolute;
+        content: '';
+        top: 56px;
+        left: 87px;
+        height: 3px;
+        width: 40%;
+        background-color: black;
+    }
+    #banner .banner_txt .typing_text {
+        padding-top: 0px;
+    }
+    /* banner part end */
+    /* about part start */
+    ol, ul {
+        padding-left: 0rem;
+    }
+    #about .abt_txt p {
+        letter-spacing: 3px;
+        line-height: 20px;
+    }
+    #about .abt_txt_right {
+        padding-top: 5px;
+        padding-left: 20px;
+    }
+    .abt_txt_right ul li{
+        padding: 5px 0;
+    }
+    #about {
+        padding: 0px 0;
+    }
+    .progression_right{
+        padding-left: 20px;
+    }
+    .rab_two{
+        padding-left: 20px;
+    }
+    #about .abt_txt_right ul .second {
+        letter-spacing: 2px;
+    }
+    #about .abt_txt_right ul .first {
+        letter-spacing: 2px;
+    }
+    /* about part end */
+    /* education part start */
+    .school .time {
+        left: -3px;
+    }
+    .school_2 .place_2 {
+        margin-right: -50px;
+    }
+    .school_2::after {
+        bottom: -45px;
+    }
+    .school_2 .time_2 {
+        left: 189px;
+    }
+    .school_2 .time_2 {
+        top: 89px;
+        left: -3px;
+    }
+    .school .place {
+        margin-right: -60px;
+    }
+    .school_2::after {
+        position: absolute;
+        content: '';
+        bottom: -48px;
+        left: 4px;
+        height: 3px;
+        width: 113%;
+        background-color: #dbdbdb;
+        /* text-align: revert; */
+    }
+    /* education part end */
+    /* portfolio part start */
+    .port_overlay a {
+        padding: 20px 31px;
+    }
+    .carousel-indicators {
+        left: 18px;
+    }
+    .port_img .port_overlay {
+        opacity: 1;
+    }
+    #portfolio .port_head h3::after {
+        width: 246px;
+    }
+    .cat_des button {
+        padding: 4px 6px;
+    }
+    /* portfolio part end */
+
+
+    /* service part start */
+    .ser_item_main{
+        text-align: center;
+        padding: 10px 0;
+    }
+    #service .service_head h3::after {
+        width: 363px;
+    }
+    #service .ser_text h2 {
+        font-size: 40px;
+    }
+    .testi_head h3::after {
+        width: 242px;
+    }
+    /* testi part start */
+    #carouselExampleCaptions{
+        padding-left: 20px;
+    }
+    /* testi part end */
+    /* service part start */
+    /* contact part start */
+    .location {
+        text-align: center;
+        border: 0px solid #797979;
+        margin: -15px 0 -8px 21px;
+        /* padding: 10px 0px 10px 13px; */
+    }
+    .email_part{
+        padding-left: 20px;
+    }
+    #contact .contact_head h3::after {
+        width: 422px;
+    }
+
+    .contact_head{
+        padding-left: 14px;
+    }
+    /* contact part end */
+}
+
+
+
+
+
+
+
+
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+     /* nav part start */
+     .logo a {
+        padding: 0px 0 0px 20px;
+    }
+ .rnav{
+    flex: 0 0 auto !important;
+    width: 100.333% !important;
+    padding-left: 20px !important;
+
+}
+.nav {
+padding: 10px 0 !important;
+justify-content: center !important;
+}
+.nav-link {
+padding: .5rem 2.5rem !important;
+}
+#banner .banner_txt h1 {
+font-size: 30px;
+line-height: 56px;
+}
+#banner .banner_txt h2 {
+font-size: 29px;
+}
+#banner .so_icon {
+padding-top: 6px;
+}
+#banner .so_icon i {
+font-size: 20px;
+padding-top: 6px;
+}
+.banner_main{
+    text-align: center;
+    padding-left: 279px;
+}
+.rim{
+    flex: 0 0 auto;
+    width: 100.667%;
+}
+/* nav part end */
+/* profile part start */
+.profile_img img {
+width: 32%;
+padding: 20px 0 20px 20px;
+}
+.profile_img{
+text-align: center;
+}
+.copyri {
+bottom: -60px;
+}
+/* profile part end */
+/* banner part start */
+#banner {
+padding: 50px 0;
+}
+#banner .banner_txt h1::after {
+position: absolute;
+content: '';
+top: 56px;
+left: 87px;
+height: 3px;
+width: 40%;
+background-color: black;
+}
+#banner .banner_txt .typing_text {
+padding-top: 0px;
+}
+/* banner part end */
+/* about part start */
+ol, ul {
+padding-left: 0rem;
+}
+#about .abt_txt p {
+letter-spacing: 3px;
+line-height: 20px;
+}
+#about .abt_txt_right {
+padding-top: 5px;
+padding-left: 20px;
+}
+.abt_txt_right ul li{
+padding: 5px 0;
+}
+#about {
+padding: 0px 0;
+}
+#about .abt_txt_right ul .second {
+	
+	letter-spacing: 2px;
+}
+#about .abt_txt_right ul .first {
+	letter-spacing: 3px;
+}
+.progression_right{
+padding-left: 20px;
+}
+.rab_two{
+padding-left: 20px;
+}
+/* about part end */
+/* education part start */
+.education_head h3 {
+	padding-left: 52px;
+}
+.education_head h3::after {
+	left: 188px;
+}
+.school .time {
+	left: 49px;
+}
+.school_2 .place_2 {
+	margin-right: -4px;
+}
+.school_2::after {
+bottom: -45px;
+}
+.school_2 .time_2 {
+left: 189px;
+}
+.school_2 .time_2 {
+	top: 89px;
+	left: 50px;
+}
+.school .place {
+	margin-right: -28px;
+}
+.school_2::after {
+	position: absolute;
+	content: '';
+	bottom: -48px;
+	left: 54px;
+	height: 3px;
+	width: 95%;
+	background-color: #dbdbdb;
+	/* text-align: revert; */
+}
+/* education part end */
+/* portfolio part start */
+.port_overlay a {
+	padding: 20px 57px;
+}
+.carousel-indicators {
+left: 18px;
+}
+.port_img .port_overlay {
+opacity: 1;
+}
+#portfolio .port_head h3::after {
+width: 246px;
+}
+.cat_des button {
+padding: 4px 6px;
+}
+/* portfolio part end */
+
+
+/* service part start */
+.ser_item_main{
+text-align: center;
+padding: 10px 0;
+}
+#service .service_head h3::after {
+width: 363px;
+}
+#service .ser_text h2 {
+font-size: 40px;
+}
+.testi_head h3::after {
+width: 242px;
+}
+/* testi part start */
+#carouselExampleCaptions{
+padding-left: 20px;
+}
+/* testi part end */
+/* service part start */
+/* contact part start */
+.location {
+text-align: center;
+border: 0px solid #797979;
+margin: -15px 0 -8px 21px;
+/* padding: 10px 0px 10px 13px; */
+}
+.email_part{
+padding-left: 20px;
+}
+#contact .contact_head h3::after {
+width: 422px;
+}
+
+.contact_head{
+padding-left: 14px;
+}
+/* contact part end */
+}
