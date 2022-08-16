@@ -1,10 +1,16 @@
 @media (max-width: 575px){ 
     /* nav part start */
+    .logo a {
+        font-size: 23px;
+    }
     .nav {
         padding: 0px 0 !important;
     }
     .nav-link {
-        padding: .5rem 1rem !important;
+        padding: 10px 5px !important;
+    }
+    .nav li button {
+        font-size: 14px !important;
     }
     /* nav part end */
     /* profile part start */
@@ -21,19 +27,32 @@
     /* profile part end */
     /* banner part start */
     #banner {
-        padding: 30px 0;
+        padding: 20px 0;
+    }
+    #banner .banner_txt h1 {
+        font-size: 40px;
     }
     #banner .banner_txt h1::after {
         position: absolute;
         content: '';
-        top: 59px;
+        top: 47px;
         left: -1px;
-        height: 5px;
+        height: 3px;
         width: 40%;
         background-color: black;
     }
     #banner .banner_txt .typing_text {
         padding-top: 0px;
+    }
+    #banner .banner_txt h2 {
+        font-size: 25px;
+        
+    }
+    .copyri h4 {
+        font-size: 15px;
+    }
+    #banner .so_icon i {
+        font-size: 16px;
     }
     /* banner part end */
     /* about part start */
@@ -43,29 +62,52 @@
     #about .abt_txt_right {
         padding-top: 5px;
     }
+    #about .abt_txt_right ul .second {
+        display: table-row;
+    }
+    #about .about_head h3::after {
+        width: 159px;
+    }
     /* about part end */
     /* education part start */
     .school_2 .place_2 {
-        
         margin-right: -2px;
+        text-align: center;
+        padding: 41px 0 0 0;
+        font-size: 15px;
     }
     .school_2::after {
-        bottom: -45px;
+        bottom: -75px;
     }
-
+    
     .school_2 .time_2 {
-        top: 89px;
+        top: 107px;
+        left: 78px;
+        font-size: 16px;
+    }
+    .school .time {
+        top: -9px;
+        left: 78px;
+        font-size: 16px;
+    }
+    .school .place {
+        font-size: 15px;
+        text-align: center;
+        padding: 9px 0px;
+    }
+    .education_head h3 {
+        padding-bottom: 22px;
     }
     /* education part end */
     /* portfolio part start */
     .port_overlay a {
-        padding: 27px 150px;
+        padding: 27px 53px;
     }
     .port_img .port_overlay {
         opacity: 1;
     }
     #portfolio .port_head h3::after {
-        width: 338px;
+        width: 163px;
     }
     .carousel-indicators {
         left: 18px;
@@ -82,13 +124,13 @@
         padding: 10px 0;
     }
     #service .service_head h3::after {
-        width: 284px;
+        width: 184px;
     }
     #service .ser_text h2 {
-        font-size: 40px;
+        font-size: 30px;
     }
     .testi_head h3::after {
-        width: 242px;
+        width: 124px;
     }
     /* testi part start */
     #carouselExampleCaptions{
@@ -106,9 +148,16 @@
     .email_part{
         padding-left: 20px;
     }
+    #contact .contact_head h3::after {
+        width: 144px;
+    }
+    .gg_map iframe{
+        height: 200px;
+        width: 280px;
+    }
     /* contact part end */
     
- }
+}
 
 
 
