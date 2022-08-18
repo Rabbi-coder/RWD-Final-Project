@@ -1,37 +1,49 @@
-@media (max-width: 575px){ 
+@media (min-width: 320px) and (max-width: 480px) {
+
     /* nav part start */
     .logo a {
         font-size: 23px;
     }
+
     .nav {
-        padding: 0px 0 !important;
+        padding-left: 20px !important;
+        justify-content: center !important;
     }
+
     .nav-link {
-        padding: 10px 5px !important;
+        padding: 9px 6px !important;
     }
+
     .nav li button {
-        font-size: 14px !important;
+        font-size: 13px !important;
+        /* text-align: center !important; */
     }
+
     /* nav part end */
     /* profile part start */
     .profile_img img {
         width: 55%;
         padding: 20px 0 20px 20px;
     }
-    .profile_img{
+
+    .profile_img {
         text-align: center;
     }
+
     .copyri {
-        bottom: -110px;
+        bottom: -150px;
     }
+
     /* profile part end */
     /* banner part start */
     #banner {
         padding: 20px 0;
     }
+
     #banner .banner_txt h1 {
         font-size: 40px;
     }
+
     #banner .banner_txt h1::after {
         position: absolute;
         content: '';
@@ -41,122 +53,181 @@
         width: 40%;
         background-color: black;
     }
+
     #banner .banner_txt .typing_text {
         padding-top: 0px;
     }
+
     #banner .banner_txt h2 {
-        font-size: 25px;
-        
+        font-size: 22px;
     }
+
     .copyri h4 {
         font-size: 15px;
     }
+
     #banner .so_icon i {
         font-size: 16px;
     }
+
     /* banner part end */
     /* about part start */
-    ol, ul {
+    ol,
+    ul {
         padding-left: 0rem;
     }
+
     #about .abt_txt_right {
         padding-top: 5px;
     }
+
     #about .abt_txt_right ul .second {
         display: table-row;
+        font-size: 12px;
     }
+
     #about .about_head h3::after {
-        width: 159px;
+        width: 81px;
     }
+
+    #about .abt_txt p {
+        font-size: 12px;
+    }
+
+    #about .abt_txt_right ul .first {
+        font-size: 13px;
+    }
+
     /* about part end */
     /* education part start */
     .school_2 .place_2 {
-        margin-right: -2px;
-        text-align: center;
-        padding: 41px 0 0 0;
+        /* text-align: left; */
+        padding: 18px 0 0 0;
         font-size: 15px;
+        position: revert;
+        float: left;
+        padding-bottom: 10px;
     }
+
     .school_2::after {
-        bottom: -75px;
+        opacity: 0;
     }
-    
+
     .school_2 .time_2 {
-        top: 107px;
-        left: 78px;
+        top: 131px;
+        left: 51px;
         font-size: 16px;
     }
+
     .school .time {
-        top: -9px;
-        left: 78px;
+        top: -1rem;
+        left: 3.2rem;
         font-size: 16px;
+        /* position: fixed; */
+        /* z-index: 99; */
     }
+
     .school .place {
+        float: left;
         font-size: 15px;
-        text-align: center;
-        padding: 9px 0px;
     }
+
     .education_head h3 {
         padding-bottom: 22px;
     }
+
+    .progression_right {
+        padding-left: 0px;
+    }
+
+    .rab_two {
+        padding-left: 0px;
+    }
+
     /* education part end */
     /* portfolio part start */
     .port_overlay a {
-        padding: 27px 53px;
+        /* padding: 0px 0px; */
+        background-color: transparent;
+        color: white;
+        font-size: 15px;
     }
+
+    .port_overlay a:hover {
+        color: white;
+    }
+
     .port_img .port_overlay {
         opacity: 1;
+        left: -46px;
+        bottom: -10px;
     }
+
     #portfolio .port_head h3::after {
-        width: 163px;
+        width: 79px;
     }
+
     .carousel-indicators {
         left: 18px;
     }
-    .mixit{
+
+    .mixit {
         padding-left: 20px;
     }
+
     /* portfolio part end */
 
 
     /* service part start */
-    .ser_item_main{
+    .ser_item_main {
         text-align: center;
         padding: 10px 0;
     }
+
     #service .service_head h3::after {
-        width: 184px;
+        width: 110px;
     }
+
     #service .ser_text h2 {
-        font-size: 30px;
+        font-size: 25px;
     }
+
     .testi_head h3::after {
-        width: 124px;
+        width: 53px;
     }
+
     /* testi part start */
-    #carouselExampleCaptions{
+    #carouselExampleCaptions {
         padding-left: 20px;
     }
+
     /* testi part end */
     /* service part start */
     /* contact part start */
     .location {
         text-align: center;
         border: 0px solid #797979;
-        margin: -47px 0 -8px 21px;
+        margin: -56px 0 -11px 7px;
         /* padding: 10px 0px 10px 13px; */
     }
-    .email_part{
+
+    .email_part {
         padding-left: 20px;
     }
+
     #contact .contact_head h3::after {
-        width: 144px;
+        width: 66px;
+        left: 184px;
     }
-    .gg_map iframe{
+
+    .gg_map iframe {
         height: 200px;
-        width: 280px;
+        width: 228px;
     }
-    /* contact part end */
-    
+
+    .contact_head h3 {
+        padding-left: 20px;
+    }
 }
 
 
@@ -166,31 +237,237 @@
 
 
 
-@media (min-width: 576px) and (max-width: 767.98px) {
-    /* nav part start */
+@media (min-width: 481px) and (max-width: 575px) {
     .nav {
-        padding: 0px 0 !important;
+        padding-left: 8px !important;
+        justify-content: center !important;
     }
+
     .nav-link {
         padding: .5rem 1rem !important;
     }
+
+    .nav li button {
+        font-size: 15px !important;
+    }
+
+    /* banner img part */
+    .profile_img img {
+        width: 93%;
+        padding: 20px 0 20px 44px;
+    }
+
+    /* banner img part */
+    /* banner text */
+    #banner {
+        padding: 20px 0;
+    }
+
+    #banner .banner_txt h1 {
+        font-size: 36px;
+    }
+
+    #banner .banner_txt h1::after {
+        position: absolute;
+        content: '';
+        top: 42px;
+        left: 0;
+        height: 3px;
+        width: 40%;
+        background-color: black;
+    }
+
+    #banner .banner_txt h2 {
+        font-size: 31px;
+    }
+
+    #banner .so_icon i {
+        font-size: 15px;
+    }
+
+    /* banner text */
+    /* about part */
+    ol,
+    ul {
+        padding-left: 0rem;
+    }
+
+    #about .abt_txt_right {
+        padding-top: 5px;
+    }
+
+    #about .abt_txt_right ul .second {
+        display: table-row;
+        font-size: 12px;
+    }
+
+    /* about part */
+    /* education part start */
+    .school_2 .place_2 {
+        /* text-align: left; */
+        padding: 18px 0 0 0;
+        font-size: 15px;
+        position: revert;
+        float: left;
+        padding-bottom: 10px;
+    }
+
+    .school_2::after {
+        opacity: 0;
+    }
+
+    .school_2 .time_2 {
+        top: 131px;
+        left: 51px;
+        font-size: 16px;
+    }
+
+    .school .time {
+        top: -1rem;
+        left: 3.2rem;
+        font-size: 16px;
+        /* position: fixed; */
+        /* z-index: 99; */
+    }
+
+    .school .place {
+        float: left;
+        font-size: 15px;
+    }
+
+    .education_head h3 {
+        padding-bottom: 22px;
+    }
+
+    .progression_right {
+        padding-left: 0px;
+    }
+
+    .rab_two {
+        padding-left: 0px;
+    }
+
+    /* education part end */
+
+    /* portfolio part start */
+    .port_overlay a {
+        padding: 0px 0px;
+        background-color: transparent;
+        color: white;
+    }
+
+    .port_overlay a:hover {
+        color: white;
+    }
+
+    .port_img .port_overlay {
+        opacity: 1;
+    }
+
+    #portfolio .port_head h3::after {
+        width: 79px;
+    }
+
+    .carousel-indicators {
+        left: 18px;
+    }
+
+    .mixit {
+        padding-left: 20px;
+    }
+
+    /* port end */
+    /* service start */
+    .ser_item_main {
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    #service .service_head h3::after {
+        width: 110px;
+    }
+
+    #service .ser_text h2 {
+        font-size: 25px;
+    }
+
+    .testi_head h3::after {
+        width: 53px;
+    }
+
+    /* service end */
+
+    /* contact part start */
+    .location {
+        text-align: center;
+        border: 0px solid #797979;
+        margin: -56px 0 -11px 7px;
+        /* padding: 10px 0px 10px 13px; */
+    }
+
+    .email_part {
+        padding-left: 20px;
+    }
+
+    #contact .contact_head h3::after {
+        width: 66px;
+        left: 184px;
+    }
+
+    .gg_map iframe {
+        height: 200px;
+        width: 367px;
+    }
+
+    .contact_head h3 {
+        padding-left: 20px;
+    }
+
+    /* contact end */
+
+}
+
+
+
+
+
+
+
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    /* nav part start */
+    .nav {
+        padding-left: 21px !important;
+        justify-content: center !important;
+    }
+
+    .nav-link {
+        padding: .5rem 1rem !important;
+    }
+
     /* nav part end */
     /* profile part start */
     .profile_img img {
         width: 55%;
         padding: 20px 0 20px 20px;
     }
-    .profile_img{
+
+    .profile_img {
         text-align: center;
     }
+
     .copyri {
-        bottom: -110px;
+        bottom: -96px;
     }
+
     /* profile part end */
     /* banner part start */
     #banner {
         padding: 30px 0;
     }
+
     #banner .banner_txt h1::after {
         position: absolute;
         content: '';
@@ -200,71 +477,125 @@
         width: 40%;
         background-color: black;
     }
+
     #banner .banner_txt .typing_text {
         padding-top: 0px;
     }
+
     /* banner part end */
     /* about part start */
-    ol, ul {
+    ol,
+    ul {
         padding-left: 0rem;
     }
+
     #about .abt_txt_right {
         padding-top: 5px;
     }
+
     #about .abt_txt_right ul .first {
         letter-spacing: 2px;
     }
+
     #about .abt_txt_right ul .second {
         letter-spacing: 3px;
     }
+
     /* about part end */
     /* education part start */
     .school_2 .place_2 {
-        
-        margin-right: -2px;
+        /* text-align: left; */
+        padding: 18px 0 0 0;
+        font-size: 15px;
+        position: revert;
+        float: left;
+        padding-bottom: 10px;
     }
+
     .school_2::after {
-        bottom: -45px;
+        opacity: 0;
     }
 
     .school_2 .time_2 {
-        top: 89px;
+        top: 131px;
+        left: 51px;
+        font-size: 16px;
     }
+
+    .school .time {
+        top: -1rem;
+        left: 3.2rem;
+        font-size: 16px;
+        /* position: fixed; */
+        /* z-index: 99; */
+    }
+
+    .school .place {
+        float: left;
+        font-size: 15px;
+    }
+
+    .education_head h3 {
+        padding-bottom: 22px;
+    }
+
+    .progression_right {
+        padding-left: 0px;
+    }
+
+    .rab_two {
+        padding-left: 0px;
+    }
+
     /* education part end */
     /* portfolio part start */
-    .port_overlay a {
-        padding: 20px 40px;
-    }
     .carousel-indicators {
         left: 18px;
     }
+
     .port_img .port_overlay {
         opacity: 1;
     }
+
     #portfolio .port_head h3::after {
         width: 338px;
     }
+
+    .port_overlay a {
+        color: #fff;
+        background-color: transparent;
+    }
+
+    .port_overlay a:hover {
+        color: white;
+    }
+
     /* portfolio part end */
 
 
     /* service part start */
-    .ser_item_main{
+    .ser_item_main {
         text-align: center;
         padding: 10px 0;
     }
+
     #service .service_head h3::after {
         width: 284px;
     }
+
     #service .ser_text h2 {
         font-size: 40px;
     }
+
     .testi_head h3::after {
         width: 242px;
     }
+
     /* testi part start */
-    #carouselExampleCaptions{
+    #carouselExampleCaptions {
         padding-left: 20px;
     }
+
     /* testi part end */
     /* service part start */
     /* contact part start */
@@ -274,12 +605,15 @@
         margin: -47px 0 -8px 21px;
         /* padding: 10px 0px 10px 13px; */
     }
-    .email_part{
+
+    .email_part {
         padding-left: 20px;
     }
+
     #contact .contact_head h3 {
         padding-left: 20px;
     }
+
     #contact .contact_head h3::after {
         position: absolute;
         content: '';
@@ -289,6 +623,7 @@
         width: 270px;
         background-color: #797979;
     }
+
     /* contact part end */
 }
 
@@ -301,31 +636,38 @@
 
 
 @media (min-width: 768px) and (max-width: 991.98px) {
+
     /* nav part start */
     .nav {
-        padding: 0px 0 !important;
+        padding-left: 15px !important;
         justify-content: center !important;
     }
+
     .nav-link {
         padding: .5rem 1rem !important;
     }
+
     /* nav part end */
     /* profile part start */
     .profile_img img {
         width: 55%;
         padding: 20px 0 20px 20px;
     }
-    .profile_img{
+
+    .profile_img {
         text-align: center;
     }
+
     .copyri {
-        bottom: -60px;
+        bottom: -35px;
     }
+
     /* profile part end */
     /* banner part start */
     #banner {
         padding: 30px 0;
     }
+
     #banner .banner_txt h1::after {
         position: absolute;
         content: '';
@@ -335,95 +677,143 @@
         width: 40%;
         background-color: black;
     }
+
     #banner .banner_txt h2 {
         padding-top: 10px;
     }
+
     #banner .banner_txt .typing_text {
         padding-top: 0px;
     }
+
     #banner .so_icon {
         padding-top: 8px;
     }
+
     /* banner part end */
     /* about part start */
-    ol, ul {
+    #about {
+        padding: 40px 0 0 36px;
+    }
+
+    ol,
+    ul {
         padding-left: 0rem;
     }
+
     #about .abt_txt_right {
         padding-top: 5px;
     }
+
     #about .abt_txt_right ul .second {
         letter-spacing: 3px;
     }
+
     #about .abt_txt_right ul .first {
         letter-spacing: 2px;
     }
+
     /* about part end */
     /* education part start */
-    .school .time {
-        left: 75px;
-    }
     .school_2 .place_2 {
-        margin-right: 79px;
+        /* text-align: left; */
+        padding: 18px 0 0 0;
+        font-size: 15px;
+        position: revert;
+        float: left;
+        padding-bottom: 10px;
     }
+
     .school_2::after {
-        bottom: -45px;
+        opacity: 0;
     }
+
     .school_2 .time_2 {
-        left: 189px;
+        top: 131px;
+        left: 51px;
+        font-size: 16px;
     }
-    .school_2 .time_2 {
-        top: 89px;
-        left: 73px;
+
+    .school_2 .place_2 {
+        text-align: right;
+        font-size: 15px;
+        /* position: revert; */
+        float: right;
     }
+
     .school .place {
-        padding-right: 74px;
+        font-size: 15px;
+        padding-top: 30px;
+        text-align: start;
+        float: left;
     }
-    .school_2::after {
-        position: absolute;
-        content: '';
-        bottom: -48px;
-        left: 77px;
-        height: 3px;
-        width: 77%;
-        background-color: #dbdbdb;
-        /* text-align: revert; */
+
+    .education_head h3 {
+        padding-bottom: 22px;
     }
+
+    .progression_right {
+        padding-left: 0px;
+    }
+
+    .rab_two {
+        padding-left: 0px;
+    }
+
     /* education part end */
     /* portfolio part start */
-    .port_overlay a {
-        padding: 20px 88px;
-    }
     .carousel-indicators {
         left: 18px;
     }
+
     .port_img .port_overlay {
         opacity: 1;
+        padding-left: 45px;
     }
+
     #portfolio .port_head h3::after {
-        width: 246px;
+        width: 338px;
     }
+
+    #MixItUp901BA4 {
+        padding-left: 14px;
+    }
+
+    .port_overlay a {
+        color: #fff;
+        background-color: transparent;
+    }
+
+    .port_overlay a:hover {
+        color: white;
+    }
+
     /* portfolio part end */
 
 
     /* service part start */
-    .ser_item_main{
+    .ser_item_main {
         text-align: center;
         padding: 10px 0;
     }
+
     #service .service_head h3::after {
         width: 363px;
     }
+
     #service .ser_text h2 {
         font-size: 40px;
     }
+
     .testi_head h3::after {
         width: 242px;
     }
+
     /* testi part start */
-    #carouselExampleCaptions{
+    #carouselExampleCaptions {
         padding-left: 20px;
     }
+
     /* testi part end */
     /* service part start */
     /* contact part start */
@@ -433,17 +823,21 @@
         margin: -47px 0 -8px 21px;
         /* padding: 10px 0px 10px 13px; */
     }
-    .email_part{
+
+    .email_part {
         padding-left: 20px;
     }
+
     #contact .contact_head h3::after {
         width: 422px;
         left: 183px;
     }
+
     #contact .contact_head h3 {
-        
+
         padding-left: 21px;
     }
+
     /* contact part end */
 }
 
@@ -455,172 +849,250 @@
 
 
 
-@media (min-width: 992px) and (max-width: 1199.98px){
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
     /* nav part start */
- .rnav{
-            flex: 0 0 auto !important;
-            width: 100.333% !important;
-            padding-left: 20px !important;
-        
+    .logo a {
+        padding: 0px 0 0px 20px;
     }
+
+    .rnav {
+        flex: 0 0 auto !important;
+        width: 100.333% !important;
+        padding-left: 20px !important;
+
+    }
+
     .nav {
-        padding: 10px 0 !important;
+        padding-left: 27px !important;
         justify-content: center !important;
     }
+
     .nav-link {
         padding: .5rem 2.5rem !important;
     }
+
     #banner .banner_txt h1 {
-        font-size: 30px;
-        line-height: 56px;
+        padding-left: 102px;
     }
+
     #banner .banner_txt h2 {
         font-size: 29px;
     }
+
     #banner .so_icon {
         padding-top: 6px;
+        padding-left: 104px;
     }
+
     #banner .so_icon i {
         font-size: 20px;
         padding-top: 6px;
     }
-    .banner_main{
-            text-align: center;
-            padding-left: 279px;
+
+    .banner_main {
+        text-align: center;
+        padding-left: 203px;
     }
-    .rim{
-            flex: 0 0 auto;
-            width: 100.667%;
+
+    .rim {
+        flex: 0 0 auto;
+        width: 100.667%;
     }
+
     /* nav part end */
     /* profile part start */
     .profile_img img {
         width: 32%;
         padding: 20px 0 20px 20px;
     }
-    .profile_img{
+
+    .profile_img {
         text-align: center;
     }
+
     .copyri {
-        bottom: -60px;
+        bottom: 10px;
     }
+
     /* profile part end */
     /* banner part start */
     #banner {
         padding: 50px 0;
     }
+
     #banner .banner_txt h1::after {
         position: absolute;
         content: '';
-        top: 56px;
-        left: 87px;
+        top: 59px;
+        left: 163px;
         height: 3px;
         width: 40%;
         background-color: black;
     }
+
     #banner .banner_txt .typing_text {
         padding-top: 0px;
+        padding-left: 93px;
+        /* font-size: 1px !important; */
     }
+
     /* banner part end */
     /* about part start */
-    ol, ul {
+    ol,
+    ul {
         padding-left: 0rem;
     }
-    #about .abt_txt p {
-        letter-spacing: 3px;
-        line-height: 20px;
+
+    .banner_main {
+        text-align: center;
+        padding-left: 214px;
     }
+
     #about .abt_txt_right {
         padding-top: 5px;
         padding-left: 20px;
     }
-    .abt_txt_right ul li{
+
+    .abt_txt_right ul li {
         padding: 5px 0;
     }
+
     #about {
         padding: 0px 0;
     }
-    .progression_right{
-        padding-left: 20px;
-    }
-    .rab_two{
-        padding-left: 20px;
-    }
+
     #about .abt_txt_right ul .second {
+
         letter-spacing: 2px;
     }
+
     #about .abt_txt_right ul .first {
-        letter-spacing: 2px;
+        letter-spacing: 3px;
     }
+
+    .progression_right {
+        padding-left: 20px;
+    }
+
+    .rab_two {
+        padding-left: 20px;
+    }
+
     /* about part end */
     /* education part start */
+    .education_head h3 {
+        padding-left: 52px;
+    }
+
+    .education_head h3::after {
+        left: 204px;
+        width: 66%;
+    }
+
     .school .time {
-        left: -3px;
+        left: 49px;
     }
+
     .school_2 .place_2 {
-        margin-right: -50px;
+        /* margin-right: -4px; */
+        float: left;
+        padding-left: 50px;
+        padding-bottom: 10px;
     }
+
     .school_2::after {
         bottom: -45px;
     }
+
     .school_2 .time_2 {
         left: 189px;
     }
+
     .school_2 .time_2 {
         top: 89px;
-        left: -3px;
+        left: 50px;
     }
+
     .school .place {
-        margin-right: -60px;
+        /* margin-right: -28px; */
+        text-align: start;
+        float: left;
+        padding-left: 52px;
     }
+
     .school_2::after {
         position: absolute;
         content: '';
-        bottom: -48px;
-        left: 4px;
+        bottom: -102px;
+        left: 52px;
         height: 3px;
-        width: 113%;
+        width: 95%;
         background-color: #dbdbdb;
         /* text-align: revert; */
     }
+
+    .progression_right {
+        padding-left: 21px;
+    }
+
+    .rab_two {
+        padding-left: 21px;
+    }
+
     /* education part end */
     /* portfolio part start */
     .port_overlay a {
-        padding: 20px 31px;
+        padding: 0;
+        background: none;
+        color: white;
+    }
+    .port_overlay a:hover{
+        color: white;
     }
     .carousel-indicators {
         left: 18px;
     }
+
     .port_img .port_overlay {
         opacity: 1;
+        left: 25%;
     }
+
     #portfolio .port_head h3::after {
         width: 246px;
     }
+
     .cat_des button {
         padding: 4px 6px;
     }
+
     /* portfolio part end */
 
 
     /* service part start */
-    .ser_item_main{
+    .ser_item_main {
         text-align: center;
         padding: 10px 0;
     }
+
     #service .service_head h3::after {
         width: 363px;
     }
+
     #service .ser_text h2 {
         font-size: 40px;
     }
+
     .testi_head h3::after {
         width: 242px;
     }
+
     /* testi part start */
-    #carouselExampleCaptions{
+    #carouselExampleCaptions {
         padding-left: 20px;
     }
+
     /* testi part end */
     /* service part start */
     /* contact part start */
@@ -630,18 +1102,28 @@
         margin: -15px 0 -8px 21px;
         /* padding: 10px 0px 10px 13px; */
     }
-    .email_part{
+
+    .email_part {
         padding-left: 20px;
     }
+
     #contact .contact_head h3::after {
         width: 422px;
     }
 
-    .contact_head{
+    .gg_map iframe {
+        height: 452px;
+        width: 401px;
+    }
+
+    .contact_head {
         padding-left: 14px;
     }
+
     /* contact part end */
 }
+
+
 
 
 
@@ -652,199 +1134,268 @@
 
 
 @media (min-width: 1200px) and (max-width: 1399.98px) {
-     /* nav part start */
-     .logo a {
+
+    /* nav part start */
+    .logo a {
         padding: 0px 0 0px 20px;
     }
- .rnav{
-    flex: 0 0 auto !important;
-    width: 100.333% !important;
-    padding-left: 20px !important;
 
-}
-.nav {
-padding: 10px 0 !important;
-justify-content: center !important;
-}
-.nav-link {
-padding: .5rem 2.5rem !important;
-}
-#banner .banner_txt h1 {
-font-size: 30px;
-line-height: 56px;
-}
-#banner .banner_txt h2 {
-font-size: 29px;
-}
-#banner .so_icon {
-padding-top: 6px;
-}
-#banner .so_icon i {
-font-size: 20px;
-padding-top: 6px;
-}
-.banner_main{
-    text-align: center;
-    padding-left: 279px;
-}
-.rim{
-    flex: 0 0 auto;
-    width: 100.667%;
-}
-/* nav part end */
-/* profile part start */
-.profile_img img {
-width: 32%;
-padding: 20px 0 20px 20px;
-}
-.profile_img{
-text-align: center;
-}
-.copyri {
-bottom: -60px;
-}
-/* profile part end */
-/* banner part start */
-#banner {
-padding: 50px 0;
-}
-#banner .banner_txt h1::after {
-position: absolute;
-content: '';
-top: 56px;
-left: 87px;
-height: 3px;
-width: 40%;
-background-color: black;
-}
-#banner .banner_txt .typing_text {
-padding-top: 0px;
-}
-/* banner part end */
-/* about part start */
-ol, ul {
-padding-left: 0rem;
-}
-#about .abt_txt p {
-letter-spacing: 3px;
-line-height: 20px;
-}
-#about .abt_txt_right {
-padding-top: 5px;
-padding-left: 20px;
-}
-.abt_txt_right ul li{
-padding: 5px 0;
-}
-#about {
-padding: 0px 0;
-}
-#about .abt_txt_right ul .second {
-	
-	letter-spacing: 2px;
-}
-#about .abt_txt_right ul .first {
-	letter-spacing: 3px;
-}
-.progression_right{
-padding-left: 20px;
-}
-.rab_two{
-padding-left: 20px;
-}
-/* about part end */
-/* education part start */
-.education_head h3 {
-	padding-left: 52px;
-}
-.education_head h3::after {
-	left: 188px;
-}
-.school .time {
-	left: 49px;
-}
-.school_2 .place_2 {
-	margin-right: -4px;
-}
-.school_2::after {
-bottom: -45px;
-}
-.school_2 .time_2 {
-left: 189px;
-}
-.school_2 .time_2 {
-	top: 89px;
-	left: 50px;
-}
-.school .place {
-	margin-right: -28px;
-}
-.school_2::after {
-	position: absolute;
-	content: '';
-	bottom: -48px;
-	left: 54px;
-	height: 3px;
-	width: 95%;
-	background-color: #dbdbdb;
-	/* text-align: revert; */
-}
-/* education part end */
-/* portfolio part start */
-.port_overlay a {
-	padding: 20px 57px;
-}
-.carousel-indicators {
-left: 18px;
-}
-.port_img .port_overlay {
-opacity: 1;
-}
-#portfolio .port_head h3::after {
-width: 246px;
-}
-.cat_des button {
-padding: 4px 6px;
-}
-/* portfolio part end */
+    .rnav {
+        flex: 0 0 auto !important;
+        width: 100.333% !important;
+        padding-left: 20px !important;
+
+    }
+
+    .nav {
+        padding-left: 27px !important;
+        justify-content: center !important;
+    }
+
+    .nav-link {
+        padding: .5rem 2.5rem !important;
+    }
+
+    #banner .banner_txt h1 {
+        font-size: 30px;
+        line-height: 56px;
+    }
+
+    #banner .banner_txt h2 {
+        font-size: 29px;
+    }
+
+    #banner .so_icon {
+        padding-top: 6px;
+    }
+
+    #banner .so_icon i {
+        font-size: 20px;
+        padding-top: 6px;
+    }
+
+    .banner_main {
+        text-align: center;
+        padding-left: 410px;
+    }
+
+    .rim {
+        flex: 0 0 auto;
+        width: 100.667%;
+    }
+
+    /* nav part end */
+    /* profile part start */
+    .profile_img img {
+        width: 32%;
+        padding: 20px 0 20px 20px;
+    }
+
+    .profile_img {
+        text-align: center;
+    }
+
+    .copyri {
+        bottom: 10px;
+    }
+
+    /* profile part end */
+    /* banner part start */
+    #banner {
+        padding: 50px 0;
+    }
+
+    #banner .banner_txt h1::after {
+        position: absolute;
+        content: '';
+        top: 56px;
+        left: 87px;
+        height: 3px;
+        width: 40%;
+        background-color: black;
+    }
+
+    #banner .banner_txt .typing_text {
+        padding-top: 0px;
+    }
+
+    /* banner part end */
+    /* about part start */
+    ol,
+    ul {
+        padding-left: 0rem;
+    }
+
+    #about .abt_txt p {
+        letter-spacing: 3px;
+        line-height: 20px;
+    }
+
+    #about .abt_txt_right {
+        padding-top: 5px;
+        padding-left: 20px;
+    }
+
+    .abt_txt_right ul li {
+        padding: 5px 0;
+    }
+
+    #about {
+        padding: 0px 0;
+    }
+
+    #about .abt_txt_right ul .second {
+
+        letter-spacing: 2px;
+    }
+
+    #about .abt_txt_right ul .first {
+        letter-spacing: 3px;
+    }
+
+    .progression_right {
+        padding-left: 20px;
+    }
+
+    .rab_two {
+        padding-left: 20px;
+    }
+
+    /* about part end */
+    /* education part start */
+    .education_head h3 {
+        padding-left: 52px;
+    }
+
+    .education_head h3::after {
+        left: 204px;
+        width: 66%;
+    }
+
+    .school .time {
+        left: 49px;
+    }
+
+    .school_2 .place_2 {
+        /* margin-right: -4px; */
+        float: left;
+        padding-left: 50px;
+        padding-bottom: 10px;
+    }
+
+    .school_2::after {
+        bottom: -45px;
+    }
+
+    .school_2 .time_2 {
+        left: 189px;
+    }
+
+    .school_2 .time_2 {
+        top: 89px;
+        left: 50px;
+    }
+
+    .school .place {
+        /* margin-right: -28px; */
+        text-align: start;
+        float: left;
+        padding-left: 52px;
+    }
+
+    .school_2::after {
+        position: absolute;
+        content: '';
+        bottom: -102px;
+        left: 52px;
+        height: 3px;
+        width: 95%;
+        background-color: #dbdbdb;
+        /* text-align: revert; */
+    }
+
+    .progression_right {
+        padding-left: 21px;
+    }
+
+    .rab_two {
+        padding-left: 21px;
+    }
+
+    /* education part end */
+    /* portfolio part start */
+    .port_overlay a {
+        padding: 20px 57px;
+    }
+
+    .carousel-indicators {
+        left: 18px;
+    }
+
+    .port_img .port_overlay {
+        opacity: 1;
+    }
+
+    #portfolio .port_head h3::after {
+        width: 246px;
+    }
+
+    .cat_des button {
+        padding: 4px 6px;
+    }
+
+    /* portfolio part end */
 
 
-/* service part start */
-.ser_item_main{
-text-align: center;
-padding: 10px 0;
-}
-#service .service_head h3::after {
-width: 363px;
-}
-#service .ser_text h2 {
-font-size: 40px;
-}
-.testi_head h3::after {
-width: 242px;
-}
-/* testi part start */
-#carouselExampleCaptions{
-padding-left: 20px;
-}
-/* testi part end */
-/* service part start */
-/* contact part start */
-.location {
-text-align: center;
-border: 0px solid #797979;
-margin: -15px 0 -8px 21px;
-/* padding: 10px 0px 10px 13px; */
-}
-.email_part{
-padding-left: 20px;
-}
-#contact .contact_head h3::after {
-width: 422px;
-}
+    /* service part start */
+    .ser_item_main {
+        text-align: center;
+        padding: 10px 0;
+    }
 
-.contact_head{
-padding-left: 14px;
-}
-/* contact part end */
+    #service .service_head h3::after {
+        width: 363px;
+    }
+
+    #service .ser_text h2 {
+        font-size: 40px;
+    }
+
+    .testi_head h3::after {
+        width: 242px;
+    }
+
+    /* testi part start */
+    #carouselExampleCaptions {
+        padding-left: 20px;
+    }
+
+    /* testi part end */
+    /* service part start */
+    /* contact part start */
+    .location {
+        text-align: center;
+        border: 0px solid #797979;
+        margin: -15px 0 -8px 21px;
+        /* padding: 10px 0px 10px 13px; */
+    }
+
+    .email_part {
+        padding-left: 20px;
+    }
+
+    #contact .contact_head h3::after {
+        width: 422px;
+    }
+
+    .gg_map iframe {
+        height: 452px;
+        width: 509px;
+    }
+
+    .contact_head {
+        padding-left: 14px;
+    }
+
+    /* contact part end */
 }
